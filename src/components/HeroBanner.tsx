@@ -10,7 +10,7 @@ const HeroBanner = () => {
       <div className="container mx-auto px-6 lg:px-16 py-16 lg:py-24 flex flex-col lg:flex-row items-center gap-12">
         {/* Left content */}
         <div className="flex-1 z-10 text-center lg:text-left">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold italic text-primary-foreground leading-tight mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-normal italic text-primary-foreground leading-tight mb-6">
             Lorem Ipsum
             <br />
             Dolor Sit Amet

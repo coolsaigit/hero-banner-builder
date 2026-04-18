@@ -62,6 +62,8 @@ const Footer = () => {
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
                 >
                   <social.icon className="w-4 h-4 text-[hsl(175,80%,60%)]" />
@@ -71,7 +73,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Copyright separator */}
+        {/* Copyright section */}
         <div className="border-t border-white/10 mt-12 pt-6">
           <p className="text-white/40 text-xs text-center">
             &copy; {new Date().getFullYear()} TrackPro. All rights reserved.
